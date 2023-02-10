@@ -20,11 +20,11 @@ let api = function Binance( options = {} ) {
     const SocksProxyAgent = require( 'socks-proxy-agent' );
     const stringHash = require( 'string-hash' );
     const async = require( 'async' );
-    let base = 'https://api.binance.com/api/';
-    let wapi = 'https://api.binance.com/wapi/';
-    let sapi = 'https://api.binance.com/sapi/';
-    let fapi = 'https://fapi.binance.com/fapi/';
-    let dapi = 'https://dapi.binance.com/dapi/';
+    let base = 'https://api.binance.us/api/';
+    let wapi = 'https://api.binance.us/wapi/';
+    let sapi = 'https://api.binance.us/sapi/';
+    let fapi = 'https://fapi.binance.us/fapi/';
+    let dapi = 'https://dapi.binance.us/dapi/';
     let fapiTest = 'https://testnet.binancefuture.com/fapi/';
     let dapiTest = 'https://testnet.binancefuture.com/dapi/';
     let fstream = 'wss://fstream.binance.com/stream?streams=';
